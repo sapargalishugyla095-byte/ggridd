@@ -1,0 +1,253 @@
+body { 
+        font-family: sans-serif; 
+      } 
+      .top { 
+        display: flex; 
+        justify-content: space-between; 
+      } 
+      select { 
+        border: 0cap; 
+      } 
+      .bell, 
+      .bubble, 
+      .bag { 
+        width: 20px; 
+        height: 20px; 
+      } 
+      .top-2 { 
+        display: flex; 
+        gap: 10px; 
+      } 
+      .challenge { 
+        font-size: large; 
+        font-weight: 600; 
+        height: 40px; 
+        width: 130px; 
+        border-right: 1px solid rgba(186, 186, 186, 0.806); 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+      } 
+      .medium { 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+      } 
+      .medium-1 { 
+        margin-top: 30px; 
+        padding: 20px; 
+        display: flex; 
+ 
+        justify-content: flex-start; 
+        align-items: flex-start; 
+        width: 920px; 
+        height: 220px; 
+        background-color: rgba(236, 239, 239, 0.77); 
+        border-radius: 20px; 
+        border: 1px solid gray; 
+      } 
+      .power img { 
+        width: 20px; 
+        height: 20px; 
+      } 
+      .power { 
+        display: flex; 
+        gap: 10px; 
+      } 
+      .med { 
+        display: flex; 
+        gap: 20px; 
+      } 
+      .ai { 
+        display: flex; 
+        flex-direction: column; 
+      } 
+      .ai-2 { 
+        display: flex; 
+        flex-direction: column; 
+      } 
+      .upgrade { 
+        display: flex; 
+        align-items: end; 
+ 
+        flex-direction: column; 
+        margin-top: 70px; 
+        margin-left: 80px; 
+      } 
+      .check { 
+        width: 10px; 
+        height: 10px; 
+        margin-top: 20px; 
+      } 
+      .button { 
+        background-color: rgb(205, 6, 6); 
+        border: none; 
+        width: 200px; 
+        height: 50px; 
+        border-radius: 20px; 
+        color: white; 
+        font-size: 20px; 
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; 
+      } 
+ 
+      .button:hover { 
+        background-color: rgb(255, 139, 139); 
+        color: red; 
+      } 
+      .input { 
+        height: 100px; 
+        width: 300px; 
+      } 
+ 
+      .medium-2 { 
+        margin-top: 40px; 
+        display: flex; 
+        justify-content: space-between; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+      } 
+      .mini-medium-2 { 
+        display: flex; 
+        gap: 40px; 
+      } 
+      .filter img { 
+        width: 20px; 
+        height: 20px; 
+      } 
+      .filter, 
+      .newest { 
+        height: 30px; 
+        width: 100px; 
+        background-color: rgb(253, 246, 237); 
+        border: 1px solid gray; 
+      } 
+      .medium-3 { 
+        display: flex; 
+        justify-content: space-between; 
+        height: 30px; 
+        display: flex; 
+        margin-top: -40px; 
+      } 
+      .not { 
+        display: flex; 
+        flex-direction: row; 
+      } 
+      .link { 
+        margin-top: 16px; 
+      } 
+      .end, 
+      .end-2 { 
+        display: flex; 
+        gap: 40px; 
+        margin-top: 50px; 
+        margin-left: 60px; 
+        font-family: sans-serif; 
+      } 
+      .box-1 { 
+        width: 300px; 
+        height: 550px; 
+        background-color: rgb(248, 255, 253); 
+        border-radius: 15px; 
+        overflow: hidden; 
+        border: 1px solid rgb(173, 167, 167); 
+      } 
+ 
+      .boxes { 
+        width: 350px; 
+        height: 250px; 
+        background-color: rgb(180, 180, 180); 
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        } 
+      .box-1 img { 
+        height: 200px; 
+        width: 250px; 
+        margin-right: 50px; 
+      } 
+      .css { 
+        display: flex; 
+        gap: 10px; 
+        margin-top: -20px; 
+      } 
+      .weat { 
+        padding: 20px; 
+ 
+        gap: 10px; 
+      } 
+ 
+      .blue { 
+        color: rgb(7, 189, 239); 
+      } 
+      .dark-blue { 
+        color: darkblue; 
+      } 
+      .pink { 
+        color: rgb(255, 27, 152); 
+      } 
+      .green { 
+        color: rgb(9, 231, 143); 
+      } 
+      .bold { 
+        font-weight: 900; 
+        font-size: 20px; 
+      } 
+      .bolder { 
+        font-size: 20px; 
+        font-weight: 700; 
+      } 
+      .arrow { 
+        width: 30px; 
+        height: 30px; 
+        margin-bottom: 5px; 
+      } 
+      .explore { 
+        display: flex; 
+      } 
+      .write { 
+        height: 30px; 
+        width: 250px; 
+        margin-left: 20px; 
+      } 
+      p { 
+        color: rgb(151, 145, 145); 
+      } 
+      .filter { 
+        height: 40px; 
+ 
+        font-size: 15px; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+      } 
+      .newest { 
+        height: 40px; 
+        width: 150px; 
+ 
+        font-size: 15px; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+      } 
+      .three { 
+        background-color: rgb(255, 183, 0); 
+        color: white; 
+        width: 30px; 
+        height: 30px; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+      } 
+      .inter { 
+        background-color: white; 
+        color: rgb(255, 183, 0); 
+        border-color: rgb(255, 221, 0); 
+        border: 2px solid; 
+        font-weight: 700; 
+      } 
+      .int { 
+        display: flex; 
+      } 
+      option { 
+        font-size: 20px; 
+      } 
